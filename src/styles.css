@@ -1,0 +1,16 @@
+
+
+/* STYLE SHEET */
+
+.dark {
+    background-color: darkseagreen;
+  }
+  header {
+    height: 150px;
+    background-color: ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px black;
+  }

@@ -2,7 +2,7 @@ const Intern = require("../lib/Intern");
 describe("Intern", () => {
   let intern;
   beforeEach(() => {
-    intern = new Intern("Nate", 1, "natewalchenbach24@gmail.com", "uw");
+    intern = new Intern("Farrell", 1, "farrell.d.dianni@gmail.com", "uw");
   });
   describe("getSchool", () => {
     it("you got the github username!", () => {

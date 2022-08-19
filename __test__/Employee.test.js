@@ -4,9 +4,9 @@ describe("Employee", () => {
 
   beforeEach(() => {
     employee = new Employee(
-      "Nate",
+      "Farrell",
       1,
-      "natewalchenbach24@gmail.com",
+      "farrell.d.dianni@gmail.com",
       "Employee"
     );
   });
@@ -26,7 +26,7 @@ describe("Employee", () => {
   describe("getEmail", () => {
     it("You got the email!", () => {
       const printedEmail = employee.getEmail();
-      expect(printedEmail).toBe("natewalchenbach24@gmail.com");
+      expect(printedEmail).toBe("farrell.d.dianni@gmail.com");
     });
   });
   describe("getRole", () => {
